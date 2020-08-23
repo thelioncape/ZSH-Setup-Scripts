@@ -21,3 +21,8 @@ zsh -c "sh -c '(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/i
 # Copy bullet-train theme to ZSH CUSTOM directory
 cp $DIR/bullet-train.zsh-theme $ZSH_CUSTOM/bullet-train.zsh-theme
 
+# Modify .zshrc to use bullet-train theme
+sed -i "s/^ZSH_THEME=.*^/ZSH_THEME=\"bullet-train\"/" $HOME/.zshrc
+
+echo "Completed"
+
