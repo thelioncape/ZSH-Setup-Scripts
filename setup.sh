@@ -6,3 +6,6 @@ then
 	exit
 fi
 
+zsh -c "sh -c '(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)'"
+
+
