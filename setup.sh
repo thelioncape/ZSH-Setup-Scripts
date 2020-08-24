@@ -22,7 +22,6 @@ sh -c '$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 cp $DIR/bullet-train.zsh-theme $HOME/.oh-my-zsh/custom/bullet-train.zsh-theme
 
 # Modify .zshrc to use bullet-train theme
-sed -i "s/^ZSH_THEME=.*^/ZSH_THEME=\"bullet-train\"/" $HOME/.zshrc
+sed -i 's~\(ZSH_THEME="\)[^"]*\(".*\)~\1bullet-train\2~' $HOME/.zshrc
 
 echo "Completed"
-
