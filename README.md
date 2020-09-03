@@ -10,3 +10,4 @@ Run the following commands to install
 Ensure you have the following packages installed
 * bash
 * ZSH
+* git
