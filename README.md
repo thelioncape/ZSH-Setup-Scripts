@@ -11,3 +11,5 @@ Ensure you have the following packages installed
 * bash
 * ZSH
 * git
+
+Also ensure you have the **powerline-patched** installed or the shell may not be displayed properly
